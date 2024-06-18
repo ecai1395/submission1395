@@ -138,8 +138,8 @@ for mymodel in models:
     # notebook_login(token='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')
 
     from huggingface_hub import login
-    login(token='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')
-    hugingface_id = 'bmehrba'
+    
+    
 
 
 

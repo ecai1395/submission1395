@@ -49,8 +49,8 @@ for threshold in thresholds:
 
 
         from huggingface_hub import login
-        login(token='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')
-        hugingface_id = 'bmehrba'
+        
+        
 
 
         model_id = "TinyLlama/TinyLlama-1.1B-Chat-v1.0" ## "Trelis/Llama-2-7b-chat-hf-sharded-bf16" is an alternative if you don't have access via Meta on HuggingFace

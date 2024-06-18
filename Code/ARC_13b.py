@@ -125,6 +125,10 @@ for mymodel in models:
         print(f"Random seed set as {seed}")
 
     set_seed(myseed)
+    # get your account token from https://huggingface.co/settings/tokens
+    # token = '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'
+
+    # notebook_login(token='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')
 
     from huggingface_hub import login
 

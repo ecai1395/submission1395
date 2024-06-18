@@ -37,19 +37,12 @@ for threshold in thresholds:
             print(f"Random seed set as {seed}")
 
         set_seed(myseed)
-        # get your account token from https://huggingface.co/settings/tokens
-        # token = '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'
 
-        # notebook_login(token='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')
-
-        # from huggingface_hub import login
-        # login(token='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')
-        # hugingface_id = 'behzadnet'
 
 
         from huggingface_hub import login
-        login(token='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')
-        hugingface_id = 'bmehrba'
+        
+        
 
 
         model_id = "meta-llama/Llama-2-13b-chat-hf" ## "Trelis/Llama-2-7b-chat-hf-sharded-bf16" is an alternative if you don't have access via Meta on HuggingFace

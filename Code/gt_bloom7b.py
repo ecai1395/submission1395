@@ -42,8 +42,8 @@ for myseed in seeds:
 
 
     from huggingface_hub import login
-    login(token='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')
-    hugingface_id = 'bmehrba'
+    
+    
 
 
     model_id = "bigscience/bloomz-7b1-mt"

@@ -17,8 +17,8 @@ from accelerate import infer_auto_device_map, init_empty_weights
 # print('sleep ended!')
 
 from huggingface_hub import login
-login(token='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')
-hugingface_id = 'bmehrba'
+
+
 models = ["meta-llama/Llama-2-13b-chat-hf" ]
 thresholds = [1.0, 0.8, 0.6, 0.4, 0.2, 0.0]
 
